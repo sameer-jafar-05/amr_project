@@ -1,0 +1,19 @@
+.hero {
+  background: url("https://picsum.photos/1200/400") center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+.hero p {
+  margin: 20px 0;
+}
+.hero button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
