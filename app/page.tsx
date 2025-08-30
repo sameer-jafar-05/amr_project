@@ -41,10 +41,10 @@ export default function Home() {
         }}
       >
         <h2 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
-          Hi, I'm Sameer 👋
+          Hi, I&apos;m Sameer 👋
         </h2>
         <p style={{ maxWidth: "600px", fontSize: "1.2rem", color: "#555" }}>
-          I’m a Computer Science student passionate about web development,
+          I&apos;m a Computer Science student passionate about web development,
           building impactful projects, and exploring new technologies.
         </p>
       </section>
