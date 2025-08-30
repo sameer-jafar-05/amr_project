@@ -1,24 +1,11 @@
+import "../styles/Hero.css";
+
 export default function Hero() {
   return (
-    <section
-      style={{
-        minHeight: "80vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#f5f5f5",
-        textAlign: "center",
-        padding: "2rem",
-      }}
-    >
-      <h2 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
-        Hi, I&apos;m Sameer 👋
-      </h2>
-      <p style={{ maxWidth: "600px", fontSize: "1.2rem", color: "#555" }}>
-        I&apos;m a Computer Science student passionate about web development,
-        building impactful projects, and exploring new technologies.
-      </p>
+    <section className="hero">
+      <h1>Welcome to My Landing Page</h1>
+      <p>This is a simple hero section built with Next.js.</p>
+      <button>Get Started</button>
     </section>
   );
 }
